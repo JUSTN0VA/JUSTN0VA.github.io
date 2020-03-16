@@ -10,6 +10,11 @@
 
 }
 
+img.top {
+  z-index: 1;
+  vertical-align: bottom;
+}
+
 div.moon {
   vertical-align: top;
   margin-top: 0px;
@@ -25,6 +30,11 @@ div.sub {
 
 p.sub {
   
+  font-size:120px;
+}
+
+p.news {
+   margin-left: 22px;
   font-size:120px;
 }
 
@@ -71,14 +81,11 @@ margin-top:0px;
 
   border-width: 10px;
 }
-
-b {
+body
+{
+  font-family: 'abelregular';
   margin: 22px;
-  font-size: 30px;
-}
-body {
-  font-family: 'abelregular', Arial, sans-serif;
-
+  font-size: 25px;
 
   background: #eee;
   line-height: 30px;
